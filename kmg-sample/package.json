@@ -1,0 +1,30 @@
+{
+    "name": "node-sql-api",
+    "version": "1.0.0",
+    "description": "NodeJS + SQL API for User Management, Registration, Authentication, Uploading Images and lots more...",
+    "license": "MIT",
+    "scripts": {
+        "start": "node ./server.js",
+        "start-dev": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "mysql2": "^1.6.4",
+        "rootpath": "^0.1.2",
+        "sequelize": "^4.42.0",
+        "twilio": "^3.26.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.5"
+    },
+    "engine": {
+        "node": "9.8.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nishantsharma99/node-mongo-api"
+    }
+}
